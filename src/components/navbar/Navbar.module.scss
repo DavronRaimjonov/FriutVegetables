@@ -1,0 +1,21 @@
+.header {
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #fff;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &_icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    i {
+      font-size: 22px;
+    }
+  }
+}
